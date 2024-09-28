@@ -11,7 +11,7 @@ m_nomi = input("mahsulot nomini kiriting: ")
 if m_nomi in mahsulotlar:
     print(mahsulotlar[m_nomi])
 else:
-    print("bunday ")
+    print("Bunday mahsulot mavjud emas!")
 
 
 # 2.
@@ -46,7 +46,7 @@ countries = {
 country = input("Mamlakat nomini kiriting: ").capitalize()
 
 if country in countries:
-    print(countries[country])
+    print(f"{country} -> {countries[country]}")
 else:
     print("Ma'lumot yetarli emas")
 
